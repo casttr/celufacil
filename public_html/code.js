@@ -1,0 +1,5 @@
+var marcaCelular = prompt ("Bienvenido/a, ¿Cuál es la marca de celular que buscas?")
+var presupuesto = prompt ("¿De cuanto es tu presupuesto? En pesos argentinos")
+var modelo = prompt ("¿De que año seria el modelo ideal de celular que buscas?")
+var camara = prompt ("¿Con cuantos megapíxeles contaria la camara de tu celular ideal?")
+var pantalla = prompt ("¿De cuantas pulgadas te gustaria que sea tu celular?")

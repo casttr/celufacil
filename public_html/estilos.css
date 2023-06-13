@@ -1,0 +1,632 @@
+
+body, html {
+	scroll-behavior: smooth;
+}
+header, section, footer {
+	width: 1200px;
+	margin-left: auto;
+	margin-right: auto;
+}
+
+header {
+	height: 130px;
+	background: -webkit-linear-gradient(top, #1e2148 45%, #4146a4);
+	position: sticky;
+	top: 0;
+}
+
+#marca {
+	width: 30%;
+	height: 90%;
+	float:left ;
+	margin-left: 5px;
+	margin-top: 5px;
+}
+
+#logo {
+	width: 100px;
+	height: 100px;
+	float: left;
+	margin-top: 20px;
+	margin-left: 20px;
+}
+
+#nombre_marca {
+	float: right;
+	margin-right: 50px;
+	margin-top: 20px;
+	font-size: 30px;
+	background: -webkit-linear-gradient(top, #f2f2f2 40%, #666666);
+	border-radius: 15px;
+	color: #666666;
+	font-family: "courier", Georgia, Serif;
+	box-shadow: 5px 3px 2px #666666;
+	text-shadow: 1px 3px 2px #888888;
+	padding: 2px;
+}
+
+#pmi {
+	text-align: center;
+	font-family: "cursive;";
+	font-size: 18px;
+	color: #b6b8e2;
+	text-shadow: 2px 2px #4a5fb5;
+	text-decoration: underline;
+	text-decoration-color: #2b2e55;
+	text-decoration-thickness: 0.25em;
+}
+
+#cab_der {
+	height: 70%;
+	width: 60%;
+	float:right;
+	margin-right: 5px;
+	margin-top: 5px;
+}
+
+#botonera {
+	margin:0;
+	list-style-type: none;
+}
+
+#botonera li {
+	display: inline;
+}
+
+#botonera li a {
+	display: box;
+	width: 80px;
+	height: 80px;
+	border: 2px #666666 solid;
+	background: -webkit-linear-gradient(top, #f2f2f2 35%, #666666) ;
+	line-height: 80px;
+	float: right;
+	margin-right: 10px;
+	text-align: center;
+	border-radius: 100px;
+	text-decoration: none;
+	color: #666666;
+	box-shadow: 5px 3px 2px #666666;
+	text-shadow: 0px 2px 2px #888888;
+}
+
+#botonera li a:hover {
+	background: #e6e6e6;
+}
+
+#seccion1 {
+	height: 660px;
+	background: -webkit-linear-gradient(top, #4146a4 30%, #7f83cc);
+}
+
+#caja1_sec1 {
+	width: 80%;
+	height: 50px;
+	float: left;
+	margin-left: 10%;
+	margin-right: 10%;
+	margin-top: 20px;
+	margin-bottom: 20px;
+	border-radius: 20px;
+	background-color: rgba(40, 43, 52, 0.55);
+}
+
+#informacion {
+	font-family: "Helvetica";
+	color: #9295d3;
+	font-size: 27px;
+	text-align: center;
+	line-height: 0px;
+	text-transform: uppercase;
+}
+
+#caja2_sec1 {
+	width: 500px;
+	height: 500px;
+	background-color: rgba(40, 43, 52, 0.55);
+	float: left;
+	margin-left: 20px;
+	background: url(imagenes/logo.png) no-repeat bottom right, url(imagenes/celular_mujer.png);
+	background-size: 25% auto, cover;
+	border: 5px solid transparent;
+  	border-image: url(borde.png) 20 20 repeat;
+  	border-radius: 10px;
+}
+
+#caja3_sec1 {
+	width: 420px;
+	height: 200px;
+	background-color: rgba(40, 43, 52, 0.65);
+	float: right;
+	margin-right: 50px;
+	border-radius: 5px 15px 20px 10px ;
+	padding: 0;
+}
+
+#caja4_sec1 {
+	width: 560px;
+	height: 300px;
+	background-color: rgba(40, 43, 52, 0.65);
+	float: right;
+	margin-top: 20px;
+	margin-right: 70px;
+	border-radius: 10px 10px 10px 10px ;
+}
+
+.texto_descriptivo {
+	font-family: "Helvetica";
+	color: #5b60be;
+	text-align: left;
+	font-size: 22px;
+	text-indent: 7px;
+	-webkit-text-fill-color: transparent;
+    background: radial-gradient(#5b60be, #9295d3);
+    -webkit-background-clip: text;
+    line-height: 20px;
+    font-style: oblique;
+    margin-left: 5px;
+}
+
+.destacado {
+	font-weight: 600;
+	-webkit-text-fill-color: transparent;
+    background-image: radial-gradient(#6d72c5, #a4a7db);
+    -webkit-background-clip: text;
+}
+
+#seccion2 {
+	height: 660px;
+	background-color: #e2f1da;
+}
+
+#caja1_sec2 {
+	width: 450px;
+	height: 90px;
+	float: left;
+	background-color: #020331;
+	margin-top: 10%;
+	margin-left: 20px;
+}
+
+#caja2_sec2 {
+	width: 600px;
+	height: 250px;
+	background-color: #0a0a43;
+	float: right;
+	margin-top: 60px;
+	margin-right: 40px;
+}
+
+#caja3_sec2 {
+	width: 425px;
+	height: 300px;
+	background-color: #bed9da;
+	float:left ;
+	margin-left: 80px ;
+	margin-top: 65px;
+}
+
+#caja4_sec2 {
+	width: 300px;
+	height: 150px;
+	background-color: #94b8b1 ;
+	float: left;
+	margin-top: 80px;
+	margin-left: 30px;
+}
+
+#caja5_sec2 {
+	width: 270px;
+	height: 300px;
+	background-color: #a9bcb7;
+	float: right;
+	margin-right: 30px;
+	margin-top: 45px;
+}
+/*
+	width: ;
+	height: ;
+	background-color: ;
+ */
+
+#seccion3 {
+	height: 660px;
+	background-color: darkgrey;
+}
+
+#caja1_sec3 {
+	width: 25%;
+	height: 250px;
+	background-color: #010219;
+	float: left;
+	margin-left: 37.5%;
+	margin-right: 37.5%;
+	margin-top: 30px;
+}
+
+#caja2_sec3 {
+	width: 200px;
+	height: 300px;
+	background-color: #bcc8b7;
+	float: left;
+	margin-left: 60px;
+	margin-top: 15px;
+}
+
+#caja3_sec3 {
+	width: 400px;
+	height: 100px;
+	background-color: #bacdb1;
+	float: left;
+	margin-left: 40px;
+	margin-top: 15px;
+}
+
+#caja4_sec3 {
+	width: 600px;
+	height: 170px;
+	background-color: #b6c8c2;
+	float: left;
+	margin-left: 55px;
+	margin-top: 30px;
+}
+
+#caja_lateral_derecha {
+	width: 225px;
+	height: 320px;
+	background-color: #b6c8ba;
+	float: right;
+	margin-right: 30px;
+	margin-top: 15px;
+}
+
+footer {
+	height: 100px;
+	background-color: #b1bdce;
+}
+
+#caja_pie {
+	width: 800px;
+	height: 70px;
+	float: right;
+	margin-top: 15px;
+	margin-right: 40px;
+}
+
+#contactos {
+	margin:0;
+	list-style-type: none;
+}
+
+#contactos li {
+	display: inline;
+}
+
+#contactos li a {
+	display: box;
+	width: 50px;
+	height: 50px;
+	float: right;
+	margin-right: 10px;
+}
+
+#contactos li a img{
+	max-width: 80%;
+	height: 80%;
+}
+
+@media all and (min-width: 600px) and (max-width: 1200px) {
+		header, section, footer {
+		width: 590px;
+	}
+
+	header {
+		height: 135px;
+		position: sticky;
+		top: 0;
+	}
+	#logo {
+		width: 70px;
+		height: 70px;
+		margin-top: 0;
+	}
+
+	#nombre_marca {
+		margin-right: 0px;
+		margin-top: 10px;
+	}
+
+	#pmi {
+		font-size: 15px;
+	}
+
+	#cab_der {
+		width: 400px;
+	}
+
+	#botonera li a {
+		width: 100px;
+		height: 100px;
+		line-height: 100px;
+		margin-right: 15px;
+	}
+
+	#seccion1 {
+		height: 800px;
+	}
+
+	#caja1_sec1 {
+		height: 90px;
+		float: left;
+	}
+
+	#informacion {
+		font-size: 20px;
+		line-height: 30px;
+	}
+
+	#caja2_sec1 {
+		width: 200px;
+		height: 200px;
+	}
+
+	#caja3_sec1 {
+		width: 320px;
+		height: 300px;
+		margin-right: 20px;
+	}
+
+	#caja4_sec1 {
+		width: 560px;
+		height: 320px;
+		float: left;
+		margin-left: 15px;
+	}
+
+	.texto_descriptivo {
+		text-align: center;
+		font-size: 25px;
+		text-indent: 0px;
+	    line-height: 22px;
+	}
+
+	.destacado {
+		font-weight: 550;
+	}
+
+	#seccion2 {
+		height: 700px;
+	}
+
+	#caja1_sec2 {
+		width: 230px;
+		height: 70px;
+		margin-top: 22px;
+	}
+
+	#caja2_sec2 {
+		width: 250px;
+		height: 270px;
+	}
+
+	#caja3_sec2 {
+		width: 225px;
+		height: 300px;
+		margin-left: 20px ;
+		margin-top: 30px;
+	}
+
+	#caja4_sec2 {
+		width: 310px;
+		height: 150px;
+		margin-top: 25px;
+		margin-left: 16px;
+	}
+
+	#caja5_sec2 {
+		width: 528px;
+		height: 150px;
+		margin-right: 30px;
+		margin-top: 25px;
+	}
+
+	#seccion3 {
+		height: 700px;
+		background-color: darkgrey;
+	}
+
+	#caja1_sec3 {
+		width: 200px;
+		height: 150px;
+		float: left;
+		margin-left: 40px;
+		margin-right: 0;
+		margin-top: 60px;
+	}
+
+	#caja2_sec3 {
+		width: 255px;
+		height: 270px;
+		float: right;
+		margin-right: 35px;
+		margin-top: 25px;
+	}
+
+	#caja3_sec3 {
+		width: 300px;
+		height: 70px;
+		margin-left: 30px;
+		margin-top: 30px;
+	}
+
+	#caja4_sec3 {
+		width: 245px;
+		height: 250px;
+		margin-left: 30px;
+	}
+
+	#caja_lateral_derecha {
+		width: 225px;
+		height: 310px;
+		margin-right: 25px;
+		margin-top: 30px;
+	}
+
+	#contactos li a {
+		width: 60px;
+		height: 60px;
+	}
+
+	#contactos li a img{
+		max-width: 100%;
+		height: 100%;
+	}
+}
+
+@media all and (max-width: 599px) {
+	header, section, footer {
+		width: 100%;
+	}
+
+	header {
+		height: 235px;
+		position: relative;
+	}
+
+	#marca {
+		width: 30%;
+		height: 90%;
+		float: left;
+		margin-left: 5px;
+		margin-top: 5px;
+	}
+
+	#nombre_marca {
+		float: left;
+		margin-top: 50px;
+		margin-left: 30px;
+	}
+
+	#pmi {
+		margin-left: 150px;
+		margin-top: 35px;
+	}
+
+	#cab_der {
+		height: 80%;
+		width: 40%;
+	}
+
+	#botonera li {
+		display: block;
+	}
+
+	#botonera li a {
+		margin-top: 5px;
+		width: 70px;
+		height: 70px;
+		line-height: 70px;
+		font-size: 12px;
+	}
+
+	#seccion1 {
+		height: 1000px;
+	}
+
+
+	#informacion {
+		font-size: 17px;
+		line-height: 15px;
+	}
+
+	#caja2_sec1 {
+		width: 95%;
+		height: 30%;
+		margin-left: 1.5%;
+	}
+
+	#caja3_sec1 {
+		width: 90%;
+		height: auto;
+		margin-right: 5%;
+		margin-top: 1%;
+	}
+
+	#caja4_sec1 {
+		width: 90% ;
+		height: 340px;
+		margin-top: 1%;
+		margin-right: 5%;
+	}
+
+
+	#seccion2 {
+		height: 1230px;
+	}
+
+	#caja1_sec2 {
+		width: 80%;
+		height: auto;
+	}
+
+	#caja2_sec2 {
+		width: 70%;
+		height: auto;
+		margin-top: 5%;
+		margin-right: 10%;
+	}
+
+	#caja3_sec2 {
+		width: 80%;
+		height: 250px;
+		margin-left: 10%;
+		margin-top: 5%;
+	}
+
+	#caja4_sec2 {
+		width: 70%;
+		height: 120px;
+		margin-top: 5%;
+		margin-left: 15%;
+	}
+
+	#caja5_sec2 {
+		width: 75%;
+		height: 220px;
+		margin-right: 10%;
+		margin-top: 5%;
+	}
+
+	#seccion3 {
+		height: 1100px;
+	}
+
+	#caja1_sec3 {
+		width: 60%;
+		height: 120px;
+		margin-left: 20%;
+	}
+
+	#caja2_sec3 {
+		width: 70%;
+		height: 270px;
+		margin-left: 15%;
+	}
+
+	#caja3_sec3 {
+		margin-left: 12.5%;
+		width: 75%;
+	}
+
+	#caja4_sec3 {
+		width: 60%;
+		height: 180px;
+		margin-left: 20%;
+		margin-top: 15px;
+	}
+
+	#caja_lateral_derecha {
+		width: 75%;
+		margin-right: 12.5%;
+	}
+}
